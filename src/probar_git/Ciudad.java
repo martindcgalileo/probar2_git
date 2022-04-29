@@ -19,6 +19,22 @@ public class Ciudad {
         this.poblacion = poblacion;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPoblacion(int poblacion) {
+        this.poblacion = poblacion;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getPoblacion() {
+        return poblacion;
+    }
+
     @Override
     public String toString() {
         return nombre;
